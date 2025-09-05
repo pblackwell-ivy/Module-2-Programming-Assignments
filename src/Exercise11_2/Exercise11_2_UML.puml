@@ -1,0 +1,43 @@
+@startuml
+Class Person {
+- name: String
+- address: String
+- phone: String
+- email: String
++ getName(): String
++ toString(): String
+}
+
+class Student {
+  - status: String
+  + FRESHMAN: String
+  + SOPHOMORE: String
+  + JUNIOR: String
+  + SENIOR: String
+  + toString(): String
+}
+
+class Employee {
+  - office: String
+  - salary: double
+  - dateHired: MyDate
+  + toString(): String
+}
+
+class Faculty {
+  - officeHours: String
+  - rank: String
+  + toString(): String
+}
+
+class Staff {
+  - title: String
+  + toString(): String
+}
+
+' Inheritance
+Person <|-- Student
+Person <|-- Employee
+Employee <|-- Faculty
+Employee <|-- Staff
+@enduml
