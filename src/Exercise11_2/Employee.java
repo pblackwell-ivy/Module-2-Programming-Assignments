@@ -2,6 +2,7 @@ package Exercise11_2;
 
 import Exercise10_14.MyDate;
 
+// Design a class Person then extend it to sStudent and Employee, then extend Employee to Faculty and Staff
 public class Employee extends Person {
     private String office;
     private double salary;

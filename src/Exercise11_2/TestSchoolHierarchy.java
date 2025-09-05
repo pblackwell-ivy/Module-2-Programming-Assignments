@@ -2,6 +2,8 @@ package Exercise11_2;
 
 import Exercise10_14.MyDate;
 
+// Write a test program that creates a Person, Student, Employee, Faculty, and Staff, and invokes their toString() methods.
+
 public class TestSchoolHierarchy {
     public static void main(String[] args) {
         // Create a person, student, employee, faculty, and staff with fake date and invoke their toString() methods

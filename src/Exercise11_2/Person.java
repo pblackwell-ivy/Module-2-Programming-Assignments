@@ -1,5 +1,6 @@
 package Exercise11_2;
 
+// Design a class Person then extend it to sStudent and Employee, then extend Employee to Faculty and Staff
 public class Person {
     private String name;
     private String address;
